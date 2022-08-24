@@ -13,6 +13,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/da44e4db57.js" crossorigin="anonymous"></script>
     <title>Portfolio Page</title>
   </head>
 
@@ -26,10 +27,13 @@
           alt="circular logo"
         />
         <ul>
-          <li>About Me</li>
-          <li>Projects</li>
-          <li>Contact</li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
         </ul>
+        <button class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
       </nav>
       <div class="hero-area">
         <div class="hero-text">
@@ -57,7 +61,7 @@
     </section>
 
     <!-- Personal Information Section -->
-    <section class="sub-section">
+    <section class="sub-section" id="about-me">
       <div class="information">
         <h2>About Me</h2>
         <p>Hello! My name is Anita Wright. I am a Software Developer!</p>
@@ -73,9 +77,11 @@
 
     <!-- Project Section (still need to add thumbnail into the img src for each project and link to the project) -->
 
-    <section class="sub-section-alternative">
+    <section class="sub-section-alternative" id="projects">
       <h2>Projects</h2>
       <div class="project-container">
+
+      <!-- Project One -->  
         <div class="project-card">
           <img class="project-image" src="#" alt="Project One Image" />
           <h3>Project One</h3>
@@ -84,8 +90,10 @@
             project.
           </p>
           <hr />
-          <p class="subtext">View Here</p>
+          <p class="subtext"><a class="project-link" href="#">View Here</a></p>
         </div>
+
+        <!-- Project Two -->
         <div class="project-card">
           <img class="project-image" src="#" alt="Project Two Image" />
           <h3>Project Two</h3>
@@ -94,8 +102,10 @@
             project.
           </p>
           <hr />
-          <p class="subtext">View Here</p>
+          <p class="subtext"><a class="project-link" href="#">View Here</a></p>
         </div>
+
+        <!-- Project Three -->  
         <div class="project-card">
           <img class="project-image" src="#" alt="Project Three Image" />
           <h3>Project Three</h3>
@@ -104,8 +114,10 @@
             project.
           </p>
           <hr />
-          <p class="subtext">View Here</p>
+          <p class="subtext"><a class="project-link" href="#">View Here</a></p>
         </div>
+        
+       <!-- Project Four -->
         <div class="project-card">
           <img class="project-image" src="#" alt="Project Four Image" />
           <h3>Project Four</h3>
@@ -114,12 +126,16 @@
             project.
           </p>
           <hr />
-          <p class="subtext">View Here</p>
+          <p class="subtext"><a class="project-link" href="#">View Here</a></p>
         </div>
       </div>
     </section>
 
-    <footer></footer>
+    <footer id="contact">
+      <h2>Contact Me</h2>
+      <p>either add email or contact form here.</p>
+
+    </footer>
 
     <script src="/src/app.js"></script>
   </body>

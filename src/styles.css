@@ -23,7 +23,6 @@ p {
 }
 
 section {
-  height: 500px;
   background-color: white;
   
 }
@@ -150,6 +149,15 @@ li {
   margin-bottom: 45px;
 }
 
+@media only screen and (max-width: 1000px) {
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+
+
 .project-image {
   width: 300px;
   border-radius: 125;
@@ -161,8 +169,40 @@ hr {
   margin-right: 20px;
 }
 
+.project-link {
+  text-decoration: none;
+  color: 857fff;
+}
+
 
 footer {
-  height: 300px;
+  padding: 80px;
   background-color: black;
+  color: white;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  
+}
+
+.hamburger {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .hamburger {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+  }
+
+  ul {
+    display: none;
+  }
+
 }
