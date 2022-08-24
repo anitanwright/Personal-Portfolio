@@ -75,6 +75,10 @@ ul {
   font-size: 30px;
 }
 
+ul.show {
+  display: block;
+}
+
 li {
   text-decoration: none;
 }
@@ -177,7 +181,7 @@ hr {
 
 footer {
   padding: 80px;
-  background-color: black;
+  background-color: #1d213a;
   color: white;
   text-align: center;
 }
@@ -192,6 +196,10 @@ a {
   display: none;
 }
 
+.hamburger:focus {
+  outline: 0;
+}
+
 @media only screen and (max-width: 1000px) {
   .hamburger {
     display: block;
@@ -199,9 +207,28 @@ a {
     background-color: transparent;
     color: white;
     font-size: 30px;
+    margin: 20px;
+    align-self: flex-end;
   }
 
   ul {
+  display: none;
+  background-color: #857fff;
+  margin: 0px;
+  
+  }
+  ul.show {
+  display: block;
+}
+
+  nav {
+    align-items: flex-start;
+    flex-direction: column-reverse;
+      background-color: #857fff;
+
+  }
+
+  .logo {
     display: none;
   }
 
