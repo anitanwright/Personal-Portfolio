@@ -19,19 +19,16 @@ p {
 .subtext {
   font-size: 15px;
   font-weight: 300;
-
 }
 
 section {
   background-color: white;
-  
 }
 
 .sub-section {
   display: flex;
   justify-content: space-around;
   padding: 80px;
-  
 }
 
 .sub-section-alternative {
@@ -110,7 +107,6 @@ li {
   padding-bottom: 200px;
 }
 
-
 /* personal logo*/
 .logo {
   height: 200px;
@@ -144,7 +140,6 @@ li {
   height: 375px;
   box-shadow: 5px 5px 20px #808080;
   margin: 10px;
-  
 }
 
 .project-container {
@@ -159,8 +154,6 @@ li {
     flex-wrap: wrap;
   }
 }
-
-
 
 .project-image {
   width: 300px;
@@ -178,7 +171,6 @@ hr {
   color: 857fff;
 }
 
-
 footer {
   padding: 80px;
   background-color: #1d213a;
@@ -189,7 +181,6 @@ footer {
 a {
   text-decoration: none;
   color: white;
-  
 }
 
 .hamburger {
@@ -212,24 +203,21 @@ a {
   }
 
   ul {
-  display: none;
-  background-color: #857fff;
-  margin: 0px;
-  
+    display: none;
+    background-color: #857fff;
+    margin: 0px;
   }
   ul.show {
-  display: block;
-}
+    display: block;
+  }
 
   nav {
     align-items: flex-start;
     flex-direction: column-reverse;
-      background-color: #857fff;
-
+    background-color: #857fff;
   }
 
   .logo {
     display: none;
   }
-
 }
